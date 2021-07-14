@@ -1,0 +1,73 @@
+.auction-title {
+	font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (2560 - 320)));
+	display: inline-block;
+	font-weight: 600;
+}
+
+.auction-start-price {
+	font-weight: 600;
+}
+
+.auction-country {
+	font-weight: 600;
+	margin: 0;
+}
+
+.auction-list {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0;
+}
+
+.auction-details {
+	list-style-type: none;
+	display: block;
+	float: right;
+	padding: 0;
+}
+
+.auction-details-title {
+	font-size: calc(18px + (26 - 18) * ((100vw - 320px) / (2560 - 320)));
+	font-weight: 600;
+}
+
+.auction-button {
+	border-radius: 5px !important;
+	margin-left: 15px !important;
+}
+
+.auction-bid {
+	border-radius: 5px !important;
+}
+
+.veilingDetailStatusOpen {
+	color: #00a410;
+	background-color: #b7ffb3;
+	border-radius: 6px;
+	font-weight: 700;
+	padding: 2px 10px;
+	margin: 0;
+	display: block;
+	float: right;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.veilingDetailStatusGesloten {
+	color: #ca3f3f;
+	background-color: #ffb3b3;
+	border-radius: 6px;
+	font-weight: 700;
+	padding: 2px 10px;
+	margin: 0;
+	display: block;
+	float: right;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 991px) {
+	.carousel-item img {
+		width: 100%;
+	}
+}

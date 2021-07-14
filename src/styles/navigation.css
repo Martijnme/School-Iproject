@@ -1,0 +1,55 @@
+/* --- Navigation --- */
+header {
+	left: 0;
+	height: 100%;
+	max-width: 125px !important;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav li a {
+	text-decoration: none !important;
+}
+
+nav li a:hover {
+	text-decoration: none !important;
+}
+
+nav > a > img:first-child {
+	padding-top: 1.5rem;
+	max-width: 100%;
+	min-width: 2.5rem;
+}
+
+nav ul li:first-child {
+	padding-top: 1.5rem;
+}
+
+nav ul li {
+	padding-bottom: 0.5rem;
+	align-self: center;
+	min-width: 1.875rem;
+}
+
+nav ul li img {
+	width: 6vh;
+	height: auto;
+}
+
+nav p {
+	font-size: 0.8rem;
+	color: black;
+	font-weight: 600;
+}
+
+/* Responsive Navigation */
+@media only screen and (max-width: 1190px) {
+	nav p {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 849px) {
+	header {
+		min-width: 4.375rem;
+	}
+}

@@ -1,0 +1,35 @@
+/* --- Styles for form ---*/
+body {
+    padding-bottom: 25px;
+}
+form, .sub-button {
+    width: 80%;
+    margin:0 auto;
+}
+section{
+    margin:0 auto;
+}
+.row-profile{
+    width: 75%;
+}
+
+.reg-button {
+    min-width: 100%;
+    background-color: #ff0036;
+    border: none;
+}
+.mail-button {
+    min-width: 100%;
+    background-color: #ff0036;
+    border: none;
+}
+.reg-button:hover,
+.reg-button:active{
+    background-color: #0f4c81;
+}
+
+/* --- Responsive form --- */
+@media only screen and (max-width: 849px){
+}
+@media only screen and (max-width: 1190px) {
+}

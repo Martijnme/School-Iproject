@@ -1,0 +1,29 @@
+/*ALL BUTTON STYLES*/
+:root{
+    --red: #FF0036;
+    --redAction: #FF335F;
+    --blue: #0F4C81;
+    --blueAction: #92B7FF;
+}
+.btn-primary {
+    background-color: var(--red);
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:active{
+    background-color: var(--redAction);
+}
+
+.btn-secondary {
+    background-color: var(--blue);
+    border: none;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active{
+    background-color: var(--blueAction);
+}
+
+
+

@@ -1,0 +1,27 @@
+/* --- Page ---*/
+body,
+html {
+	font-family: "Nunito", sans-serif;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+}
+
+/* --- TEXT SIZES --- */
+h1  {
+	font-weight: 600;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+h5 {
+	font-weight: 600;
+}
+
+h6 {
+	font-weight: 600;
+}
